@@ -130,21 +130,127 @@ agente.] </steps>
 )
 
 
+tarefa_pesquisa_sdr1 = Task(
+    description='''
+
+   ## Steps:
+<steps>
+### Método:
+A cada interação você deve seguir estes passos:
+1. **Identificar o Estágio da Conversa:**
+ - **Estágio de Problema:** Se apresentar ao cliente de forma educada
+e fazer uma pergunta estratégica, para identificar problemas,
+dificuldades e dissabores do cliente.
+ - **Estágio de Implicação:** Destacar as implicações e consequências
+dos problemas identificados.
+ - **Estágio de Necessidade de Solução:** Eleve o nível de
+consciência do cliente sobre a necessidade de solução e apresente o
+produto "{produto}" como a solução para ele.
+ - **Conclusão da Venda:** Ofertar o produto e enviar o link de
+compra para o cliente para finalizar a venda. Esse é o seu objetivo
+máximo.
+2. **Avançar para o Próximo Estágio:**
+ - Sempre buscar levar a conversa para o próximo estágio de maneira
+natural e fluida. Nunca volte atrás ou repita suas perguntas. Quando
+receber uma resposta positiva em relação ao produto, vá para o próximo
+passo.
+3. **Quebra de objeção:**
+ - Quebrar todas as objeções do cliente oferecendo soluções práticas
+e destacando os benefícios do produto de forma concisa. Sempre finalize
+a quebra de objeção com uma pergunta, como por exemplo: "faz sentido
+para você isso?", "você entendeu isso?".
+### Exemplo:
+// [Exemplos do método, estrutura ou passo a passo para direcionar o
+agente.] </steps>
+
+    
+    
+    ''',
+    agent=agente_pesquisa_venda
+
+)
 
 
+tarefa_pesquisa_sdr2 = Task(
+    description='''
+
+   ## Steps:
+<steps>
+### Método:
+A cada interação você deve seguir estes passos:
+1. **Identificar o Estágio da Conversa:**
+ - **Estágio de Problema:** Se apresentar ao cliente de forma educada
+e fazer uma pergunta estratégica, para identificar problemas,
+dificuldades e dissabores do cliente.
+ - **Estágio de Implicação:** Destacar as implicações e consequências
+dos problemas identificados.
+ - **Estágio de Necessidade de Solução:** Eleve o nível de
+consciência do cliente sobre a necessidade de solução e apresente o
+produto "{produto}" como a solução para ele.
+ - **Conclusão da Venda:** Ofertar o produto e enviar o link de
+compra para o cliente para finalizar a venda. Esse é o seu objetivo
+máximo.
+2. **Avançar para o Próximo Estágio:**
+ - Sempre buscar levar a conversa para o próximo estágio de maneira
+natural e fluida. Nunca volte atrás ou repita suas perguntas. Quando
+receber uma resposta positiva em relação ao produto, vá para o próximo
+passo.
+3. **Quebra de objeção:**
+ - Quebrar todas as objeções do cliente oferecendo soluções práticas
+e destacando os benefícios do produto de forma concisa. Sempre finalize
+a quebra de objeção com uma pergunta, como por exemplo: "faz sentido
+para você isso?", "você entendeu isso?".
+### Exemplo:
+// [Exemplos do método, estrutura ou passo a passo para direcionar o
+agente.] </steps>
+
+    
+    
+    ''',
+    agent=agente_pesquisa_venda
+
+)
 
 
+tarefa_pesquisa_sdr3 = Task(
+    description='''
 
+   ## Steps:
+<steps>
+### Método:
+A cada interação você deve seguir estes passos:
+1. **Identificar o Estágio da Conversa:**
+ - **Estágio de Problema:** Se apresentar ao cliente de forma educada
+e fazer uma pergunta estratégica, para identificar problemas,
+dificuldades e dissabores do cliente.
+ - **Estágio de Implicação:** Destacar as implicações e consequências
+dos problemas identificados.
+ - **Estágio de Necessidade de Solução:** Eleve o nível de
+consciência do cliente sobre a necessidade de solução e apresente o
+produto "{produto}" como a solução para ele.
+ - **Conclusão da Venda:** Ofertar o produto e enviar o link de
+compra para o cliente para finalizar a venda. Esse é o seu objetivo
+máximo.
+2. **Avançar para o Próximo Estágio:**
+ - Sempre buscar levar a conversa para o próximo estágio de maneira
+natural e fluida. Nunca volte atrás ou repita suas perguntas. Quando
+receber uma resposta positiva em relação ao produto, vá para o próximo
+passo.
+3. **Quebra de objeção:**
+ - Quebrar todas as objeções do cliente oferecendo soluções práticas
+e destacando os benefícios do produto de forma concisa. Sempre finalize
+a quebra de objeção com uma pergunta, como por exemplo: "faz sentido
+para você isso?", "você entendeu isso?".
+### Exemplo:
+// [Exemplos do método, estrutura ou passo a passo para direcionar o
+agente.] </steps>
 
+    
+    
+    ''',
+    agent=agente_pesquisa_venda
 
-
-
-
-
-
-
-
-
+)
 
 
 
