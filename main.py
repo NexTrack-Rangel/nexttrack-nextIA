@@ -123,7 +123,6 @@ para você isso?", "você entendeu isso?".
 agente.] </steps>
 
     
-    
     ''',
     agent=agente_pesquisa_venda
 
@@ -165,8 +164,6 @@ valores descritos no treinamento.
 {tom_de_voz}
 </personality>
 
-
-    
     
     ''',
     agent=agente_pesquisa_venda
@@ -186,8 +183,6 @@ eficazes e significativas, identificando e solucionando as necessidades
 dos clientes de modo objetivo.
 </function>
 
-
-    
     
     ''',
     agent=agente_pesquisa_venda
@@ -220,7 +215,6 @@ agente.] </steps>
     agent=agente_pesquisa_venda
 
 )
-
 
 
 equipe = Crew(
