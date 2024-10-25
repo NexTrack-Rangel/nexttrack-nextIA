@@ -6,17 +6,19 @@ from fastapi import FastAPI, HTTPException
 from crewai import Agent, Task, Crew
 from dotenv import load_dotenv
 import os
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI  # Importação atualizada
 
 load_dotenv()
 
-
-app = FastAPI()
-
-
-# Configuração do modelo de linguagem e agentes
 openai_api_key = os.getenv('OPENAI_API_KEY')
 openai_llm = ChatOpenAI(model_name='gpt-4-1106-preview', api_key=openai_api_key)
+
+
+load_dotenv()
+openai_api_key = os.getenv('OPENAI_API_KEY')
+
+
+app = FastAPI()
 
 agente_pesquisa_venda = Agent(
     role='Agente de Vendas do WhatsApp com a missão de gerar vendas',
