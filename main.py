@@ -120,6 +120,13 @@ e destacando benefícios de forma empática e concisa.
     agent=agente_pesquisa_venda
 )
 
+
+resultado = Crew(
+    agents=[agente_pesquisa_venda, agente_suporte_sdr],
+    tasks=[task_personalidade_venda, task_funcao_venda, task_steps_venda],
+    verbose=True
+)
+
 # Helper function to identify task type
 def select_task(task_type: str):
     if task_type == "pesquisa_venda":
